@@ -1,3 +1,4 @@
 <?php
-session_start();
-$conn = mysqli_connect("localhost", "root", "phpMay025");
+$conn = mysqli_connect('mysql', 'root', 'password', 'forms',);
+
+?>
